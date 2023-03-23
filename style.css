@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-top: 50px;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input[type="button"] {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+#Hasil {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}

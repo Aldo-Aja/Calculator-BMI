@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Kalkulator BMI</h1>
+    <form>
+      <label for="Berat Badan">Berat (kg):</label>
+      <input type="number" id="Berat" name="Berat" required /><br />
+
+      <label for="Tinggi Badan">Tinggi (cm):</label>
+      <input type="number" id="Tinggi" name="Tinggi" required /><br />
+
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Laki Laki</label><br />
+
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Perempuan</label><br />
+
+      <input type="button" value="Hasil" onclick="calculateBMI()" />
+      <input type="button" value="Reset" onclick="resetButton()" />
+    </form>
+
+    <div id="Hasil"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
